@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preposition Master</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: var(--primary)">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-book-open">
+                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                </svg>
+                Preposition Master
+            </a>
+            <div class="d-flex gap-2">
+                <button class="nav-button text-white" onclick="showSection('learn')">Learn</button>
+                <button class="nav-button text-white" onclick="showSection('practice')">Practice</button>
+                <button class="nav-button text-white" onclick="showSection('review')">Review</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Brand overlay  -->
+    <div id="brandOverlay" class="brand-overlay">
+        <div class="brand-content">
+            <img src="clipart.png" alt="Brand Logo" class="brand-logo">
+            <h2 class="brand-title">Preposition Master</h2>
+            <div class="brand-decoration"></div>
+        </div>
+    </div>
+
+    <!-- Hero selection -->
+    <div class="container mt-8 mb-16">
+        <!-- Learning Section -->
+        <div id="learnSection">
+            <div class="d-flex justify-content-between align-items-center mb-6">
+                <h2 class="text-2xl font-bold text-gray-800">Learn Prepositions</h2>
+                <div class="set-tabs">
+                    <!-- Set tabs will be dynamically generated here -->
+                </div>
+            </div>
+            <div id="cardContainer" class="row g-4"></div>
+        </div>
+
+        <!-- Practice Section -->
+        <div id="practiceSection" class="hidden">
+            <div class="d-flex justify-content-between align-items-center mb-6">
+                <h2 class="text-2xl font-bold text-gray-800">Practice</h2>
+                <div class="d-flex gap-3 align-items-center">
+                    <div class="input-group" style="width: 160px">
+                        <input type="number" id="questionCount" min="1" max="50" value="5"
+                            class="form-control text-center" onchange="applyQuestionCount()">
+                        <span class="input-group-text">Questions</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex gap-2 mb-6">
+                <button onclick="setPracticeType('fill')" class="btn btn-lg btn-outline-primary">
+                    Fill Blanks
+                </button>
+                <button onclick="setPracticeType('mcq')" class="btn btn-lg btn-outline-primary">
+                    Multiple Choice
+                </button>
+                <button onclick="setPracticeType('match')" class="btn btn-lg btn-outline-primary">
+                    Matching
+                </button>
+            </div>
+
+            <div id="practiceQuestions" class="row g-4"></div>
+
+            <div class="mt-8 text-center">
+                <button onclick="checkPractice()" class="btn btn-primary btn-lg px-8 py-3">
+                    Submit Answers
+                </button>
+            </div>
+        </div>
+
+        <!-- Review Section -->
+        <div id="reviewSection" class="hidden">
+            <div class="d-flex justify-content-between align-items-center mb-6">
+                <h2 class="text-2xl font-bold text-gray-800">Weak Phrases Review</h2>
+                <div class="badge bg-primary rounded-pill p-2" id="weakCount">0 items</div>
+            </div>
+            <div id="reviewList" class="row g-4"></div>
+        </div>
+    </div>
+
+    <!-- Review Bar -->
+    <div id="reviewBar" class="review-bar hidden">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center py-3">
+                <div class="d-flex gap-4 align-items-center">
+                    <div class="d-flex gap-2 align-items-center">
+                        <div class="text-success fw-bold">✓ <span id="correctCount">0</span></div>
+                        <div class="text-danger fw-bold">✕ <span id="incorrectCount">0</span></div>
+                    </div>
+                    <div class="progress" style="width: 200px; height: 8px">
+                        <div id="progressBar" class="progress-bar bg-primary" role="progressbar"></div>
+                    </div>
+                </div>
+                <div class="d-flex gap-2">
+                    <button onclick="showSection('review')" class="btn btn-outline-primary btn-sm">
+                        Review Mistakes
+                    </button>
+                    <button onclick="document.getElementById('reviewBar').classList.add('hidden')"
+                        class="btn btn-outline-secondary btn-sm">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Action Button -->
+    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+        class="floating-button btn btn-primary rounded-circle p-3">
+        ↑
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
