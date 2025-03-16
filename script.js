@@ -167,9 +167,14 @@ const data = {
       "example": "They speak a language akin to French."
     },
     {
-      "phrase": "alarmed at, by",
+      "phrase": "alarmed at",
       "meaning": "আতঙ্কিত",
       "example": "Suddenly I was alarmed at a sound."
+    },
+    {
+      "phrase": "alarmed by",
+      "meaning": "আতঙ্কিত",
+      "example": "She was alarmed by the sudden noise."
     }
   ],
   "setB": [
@@ -448,9 +453,14 @@ const data = {
       "example": "You should deal with your problem."
     },
     {
-      "phrase": "decorated by with",
+      "phrase": "decorated by",
       "meaning": "সাজানো",
       "example": "We decorated the school building with flags and flowers."
+    },
+    {
+      "phrase": "decorated with",
+      "meaning": "সাজানো",
+      "example": "The room was decorated with balloons."
     },
     {
       "phrase": "dedicate to",
@@ -458,9 +468,14 @@ const data = {
       "example": "He has dedicated his life to the service of mankind."
     },
     {
-      "phrase": "depart from for",
+      "phrase": "depart from",
       "meaning": "কারো থেকে চলে যাওয়া",
       "example": "One day he has to depart from this world for his heavenly abode."
+    },
+    {
+      "phrase": "depart for",
+      "meaning": "কোনো স্থানের উদ্দেশ্যে যাত্রা",
+      "example": "He departed for Dhaka early in the morning."
     },
     {
       "phrase": "depend on",
@@ -503,24 +518,59 @@ const data = {
       "example": "Zilani was devoted to his mother."
     },
     {
-      "phrase": "die of/die from/die for",
-      "meaning": "কোনো রোগে মরা/ কোনো কারনে মরা/আক্রান্ত হওয়া",
+      "phrase": "die of",
+      "meaning": "কোনো রোগে মরা",
       "example": "He died of cholera."
     },
     {
-      "phrase": "different from/to",
+      "phrase": "die from",
+      "meaning": "কোনো কারনে মরা",
+      "example": "Two or three frogs died from stones thrown by the boys."
+    },
+    {
+      "phrase": "die for",
+      "meaning": "আক্রান্ত হওয়া",
+      "example": "He died for his country."
+    },
+    {
+      "phrase": "different from",
       "meaning": "কোনো কিছু থেকে ভিন্নতর",
       "example": "Noise is different from sound."
     },
     {
-      "phrase": "difficulty with/in doing",
+      "phrase": "different to",
+      "meaning": "কোনো কিছু থেকে ভিন্নতর",
+      "example": "This idea is different to what we discussed earlier."
+    },
+    {
+      "phrase": "difficulty with",
       "meaning": "কোনো ক্ষেত্রে জটিতা",
       "example": "I have difficulty with my travel arrangements."
     },
     {
-      "phrase": "disagree with/about/on/over",
+      "phrase": "difficulty in doing",
+      "meaning": "কোনো ক্ষেত্রে জটিতা",
+      "example": "She has difficulty in understanding the instructions."
+    },
+    {
+      "phrase": "disagree with",
       "meaning": "কোনো ব্যাপারে কারো সাথে ভিন্নমত পোষণ করা",
       "example": "You will never disagree with me about the usefulness of library in our life."
+    },
+    {
+      "phrase": "disagree about",
+      "meaning": "কোনো ব্যাপারে কারো সাথে ভিন্নমত পোষণ করা",
+      "example": "They disagree about the best way to solve the problem."
+    },
+    {
+      "phrase": "disagree on",
+      "meaning": "কোনো ব্যাপারে কারো সাথে ভিন্নমত পোষণ করা",
+      "example": "We disagree on the importance of this issue."
+    },
+    {
+      "phrase": "disagree over",
+      "meaning": "কোনো ব্যাপারে কারো সাথে ভিন্নমত পোষণ করা",
+      "example": "The committee disagrees over the new policy."
     },
     {
       "phrase": "divert to",
@@ -528,9 +578,14 @@ const data = {
       "example": "Our attention was diverted to the chirping of the pigeons."
     },
     {
-      "phrase": "divide among/between",
+      "phrase": "divide among",
       "meaning": "কারো মধ্যে ভাগ করে দেয়া",
       "example": "Divide the mangoes among the boys."
+    },
+    {
+      "phrase": "divide between",
+      "meaning": "কারো মধ্যে ভাগ করে দেয়া",
+      "example": "The money was divided between the two brothers."
     },
     {
       "phrase": "dressed in",
@@ -585,14 +640,24 @@ const data = {
       "example": "Man has no escape from death."
     },
     {
-      "phrase": "essential to/for",
+      "phrase": "essential to",
       "meaning": "কারো কাছে কোনো কিছুর জন্য প্রয়োজন",
-      "example": "Holidays are essential to/for our life."
+      "example": "Holidays are essential to our life."
     },
     {
-      "phrase": "excel in/at an activity",
+      "phrase": "essential for",
+      "meaning": "কারো কাছে কোনো কিছুর জন্য প্রয়োজন",
+      "example": "Education is essential for success."
+    },
+    {
+      "phrase": "excel in",
       "meaning": "কোনো ব্যক্তি/ কিছুকে ছাড়িয়ে যাওয়া",
       "example": "He tried to excel himself in his profession as a teacher."
+    },
+    {
+      "phrase": "excel at",
+      "meaning": "কোনো ব্যক্তি/ কিছুকে ছাড়িয়ে যাওয়া",
+      "example": "She excels at playing the piano."
     }
   ],
   "setF": [
@@ -684,9 +749,14 @@ const data = {
       "example": "The boy is good in the team."
     },
     {
-      "phrase": "grateful to for",
-      "meaning": "কারো কাছে কোনো কিছুর জন্য কৃতজ্ঞ",
-      "example": "We should be grateful to our parents for their care."
+      "phrase": "grateful to",
+      "meaning": "কারো প্রতি কৃতজ্ঞ",
+      "example": "I am grateful to my teacher for his guidance."
+    },
+    {
+      "phrase": "grateful for",
+      "meaning": "কোনো কিছুর জন্য কৃতজ্ঞ",
+      "example": "I am grateful for your help."
     },
     {
       "phrase": "greed for",
@@ -706,9 +776,14 @@ const data = {
   ],
   "setH": [
     {
-      "phrase": "hanker after/for",
+      "phrase": "hanker after",
       "meaning": "কোনো কিছুর জন্য লালায়িত হওয়া",
       "example": "Some people hanker after riches."
+    },
+    {
+      "phrase": "hanker for",
+      "meaning": "কোনো কিছুর জন্য লালায়িত হওয়া",
+      "example": "He hankers for fame and recognition."
     },
     {
       "phrase": "harmful to",
@@ -721,7 +796,12 @@ const data = {
       "example": "One should bear hatred to criminals."
     },
     {
-      "phrase": "hear of from",
+      "phrase": "hear of",
+      "meaning": "কোনো কিছু সম্পর্কে জানা",
+      "example": "I have heard of his success."
+    },
+    {
+      "phrase": "hear from",
       "meaning": "কারো কাছ থেকে কিছু জানা",
       "example": "I have just heard from your brother that you got a prize in the play."
     },
@@ -741,14 +821,24 @@ const data = {
       "example": "Poverty is a hindrance to success."
     },
     {
-      "phrase": "hit upon/on",
+      "phrase": "hit upon",
       "meaning": "হঠাৎ মনে কোনো কিছু উদয় হওয়া",
       "example": "He hit upon a plan to set up peace in the country."
     },
     {
-      "phrase": "hopeful of/about",
+      "phrase": "hit on",
+      "meaning": "হঠাৎ মনে কোনো কিছু উদয় হওয়া",
+      "example": "She hit on a brilliant idea."
+    },
+    {
+      "phrase": "hopeful of",
       "meaning": "কোনো কিছু ঘটবে আশাবাদী",
       "example": "He was hopeful of his success."
+    },
+    {
+      "phrase": "hopeful about",
+      "meaning": "কোনো কিছু ঘটবে আশাবাদী",
+      "example": "She is hopeful about the future."
     },
     {
       "phrase": "hostile to",
@@ -808,9 +898,14 @@ const data = {
       "example": "At least 10 people, including the train driver, were injured in the accident."
     },
     {
-      "phrase": "insisted on/doing",
+      "phrase": "insisted on",
       "meaning": "জোর দিয়ে বলা বা পীড়াপীড়ি করা",
       "example": "You insisted on my early return."
+    },
+    {
+      "phrase": "insisted on doing",
+      "meaning": "জোর দিয়ে বলা বা পীড়াপীড়ি করা",
+      "example": "He insisted on going to the party."
     },
     {
       "phrase": "interested in",
@@ -825,9 +920,14 @@ const data = {
   ],
   "setJ": [
     {
-      "phrase": "judged by/with",
+      "phrase": "judged by",
       "meaning": "বিচার করা হয়",
       "example": "The development of a country is judged by the standard of its communication system."
+    },
+    {
+      "phrase": "judged with",
+      "meaning": "বিচার করা হয়",
+      "example": "The performance was judged with great care."
     }
   ],
   "setK": [
@@ -852,9 +952,14 @@ const data = {
       "example": "I am very anxious about your studies because your HSC Exam is knocking at the door."
     },
     {
-      "phrase": "know about/of",
+      "phrase": "know about",
       "meaning": "কোনো কিছু সম্পর্কে সচেতন বা জানা থাকা",
       "example": "He wants to know about the mystery of the universe."
+    },
+    {
+      "phrase": "know of",
+      "meaning": "কোনো কিছু সম্পর্কে সচেতন বা জানা থাকা",
+      "example": "I know of his achievements."
     },
     {
       "phrase": "known to",
@@ -916,16 +1021,26 @@ const data = {
       "example": "This medicine is a mixture of different formula."
     },
     {
-      "phrase": "mourn for/over",
+      "phrase": "mourn for",
       "meaning": "কোনো কিছুর জন্য শোক করা",
-      "example": "We mourn over the martyrs."
+      "example": "We mourn for the martyrs."
+    },
+    {
+      "phrase": "mourn over",
+      "meaning": "কোনো কিছুর জন্য শোক করা",
+      "example": "She mourned over the loss of her pet."
     }
   ],
   "setN": [
     {
-      "phrase": "necessary for/to do",
+      "phrase": "necessary for",
       "meaning": "কারো জন্য অপরিহার্য",
       "example": "They are absolutely necessary for our existence."
+    },
+    {
+      "phrase": "necessary to do",
+      "meaning": "কোনো কিছু করা অপরিহার্য",
+      "example": "It is necessary to follow the rules."
     }
   ],
   "setO": [
@@ -952,9 +1067,14 @@ const data = {
   ],
   "setP": [
     {
-      "phrase": "parallel to/with",
+      "phrase": "parallel to",
       "meaning": "কোনো কিছুর সাথে সমান্তরাল সম্পর্কযুক্ত",
       "example": "No novelist stands parallel to Leo Tolstoy."
+    },
+    {
+      "phrase": "parallel with",
+      "meaning": "কোনো কিছুর সাথে সমান্তরাল সম্পর্কযুক্ত",
+      "example": "The road runs parallel with the river."
     },
     {
       "phrase": "part with",
@@ -992,9 +1112,19 @@ const data = {
       "example": "The convicted plead for justice."
     },
     {
-      "phrase": "pleasure in/of/doing",
+      "phrase": "pleasure in",
       "meaning": "কোনো কিছুতে সন্তুষ্টি",
       "example": "You will find pleasure in swimming in our beautiful river."
+    },
+    {
+      "phrase": "pleasure of",
+      "meaning": "কোনো কিছুতে সন্তুষ্টি",
+      "example": "He takes great pleasure of helping others."
+    },
+    {
+      "phrase": "pleasure in doing",
+      "meaning": "কোনো কিছুতে সন্তুষ্টি",
+      "example": "She finds pleasure in reading books."
     },
     {
       "phrase": "popular with",
@@ -1062,9 +1192,14 @@ const data = {
       "example": "Punishment should be proportionate to crime."
     },
     {
-      "phrase": "protect from/against",
+      "phrase": "protect from",
       "meaning": "কাউকে কোনো কিছু থেকে রক্ষা করা",
       "example": "He protects others from danger and temptation."
+    },
+    {
+      "phrase": "protect against",
+      "meaning": "কাউকে কোনো কিছু থেকে রক্ষা করা",
+      "example": "Vaccines protect us against diseases."
     },
     {
       "phrase": "proud of",
@@ -1146,9 +1281,14 @@ const data = {
       "example": "His speech is not relevant to the main topic."
     },
     {
-      "phrase": "relief of/from",
+      "phrase": "relief of",
       "meaning": "কোনো কিছু থেকে মুক্ত",
       "example": "They give us relief from heavy pressure of regular work or normal duties."
+    },
+    {
+      "phrase": "relief from",
+      "meaning": "কোনো কিছু থেকে মুক্ত",
+      "example": "The medicine provided relief from pain."
     },
     {
       "phrase": "relieved of",
@@ -1166,9 +1306,14 @@ const data = {
       "example": "Hazi Mohammad Mohsin is remarkable for his charity."
     },
     {
-      "phrase": "remedy for/against",
+      "phrase": "remedy for",
       "meaning": "কোনো কিছুর প্রতিকার",
       "example": "There is no remedy for some fatal diseases."
+    },
+    {
+      "phrase": "remedy against",
+      "meaning": "কোনো কিছুর প্রতিকার",
+      "example": "Vaccination is a remedy against diseases."
     },
     {
       "phrase": "remind of",
@@ -1196,9 +1341,14 @@ const data = {
       "example": "The government should go forward to rescue the nation from unemployment problem."
     },
     {
-      "phrase": "respectful to/of",
+      "phrase": "respectful to",
       "meaning": "কারো প্রতি শ্রদ্ধাশীল",
       "example": "I am respectful to my teachers."
+    },
+    {
+      "phrase": "respectful of",
+      "meaning": "কারো প্রতি শ্রদ্ধাশীল",
+      "example": "He is respectful of his elders."
     },
     {
       "phrase": "respond to",
@@ -1216,9 +1366,14 @@ const data = {
       "example": "The World Cup Football is restricted to 32 teams."
     },
     {
-      "phrase": "resulting in/into",
+      "phrase": "resulting in",
       "meaning": "কোনো কিছুতে পর্যবসিত হওয়া বা কোনো কিছু ডেকে আনা",
       "example": "Lack of oxygen results in respiration troubles."
+    },
+    {
+      "phrase": "resulting into",
+      "meaning": "কোনো কিছুতে পর্যবসিত হওয়া বা কোনো কিছু ডেকে আনা",
+      "example": "His actions resulted into a huge loss."
     },
     {
       "phrase": "retire from",
@@ -1288,9 +1443,14 @@ const data = {
       "example": "Everybody seeks for bread and butter."
     },
     {
-      "phrase": "set out for/on",
+      "phrase": "set out for",
       "meaning": "যাত্রা করা",
       "example": "He set out for travelling."
+    },
+    {
+      "phrase": "set out on",
+      "meaning": "যাত্রা করা",
+      "example": "They set out on a journey to the mountains."
     },
     {
       "phrase": "sick of",
@@ -1308,9 +1468,14 @@ const data = {
       "example": "Never sink into daydream."
     },
     {
-      "phrase": "stand by/beside",
+      "phrase": "stand by",
       "meaning": "কারো/ কোনো কিছুর পক্ষে থাকা",
       "example": "Our village stands by the river Bishkhali."
+    },
+    {
+      "phrase": "stand beside",
+      "meaning": "কারো/ কোনো কিছুর পক্ষে থাকা",
+      "example": "He stood beside his friend in times of need."
     },
     {
       "phrase": "stare at",
@@ -1318,9 +1483,14 @@ const data = {
       "example": "Jamil stares at Jamila."
     },
     {
-      "phrase": "stay at/in",
+      "phrase": "stay at",
       "meaning": "কোথাও অবস্থান করা",
       "example": "On Pahela Baishakh, I stay at home."
+    },
+    {
+      "phrase": "stay in",
+      "meaning": "কোথাও অবস্থান করা",
+      "example": "He stayed in the hotel for a week."
     },
     {
       "phrase": "step in",
@@ -1368,9 +1538,14 @@ const data = {
       "example": "Honesty is superior to dishonesty."
     },
     {
-      "phrase": "sure of/about",
+      "phrase": "sure of",
       "meaning": "নিশ্চিত হওয়া",
       "example": "I am sure of your success."
+    },
+    {
+      "phrase": "sure about",
+      "meaning": "নিশ্চিত হওয়া",
+      "example": "She is sure about her decision."
     },
     {
       "phrase": "surrounded by",
@@ -1425,9 +1600,14 @@ const data = {
       "example": "The army took over the control of the country."
     },
     {
-      "phrase": "talk about/of",
+      "phrase": "talk about",
       "meaning": "কোনো কিছু নিয়ে কথা বলা",
       "example": "They talked about the plan."
+    },
+    {
+      "phrase": "talk of",
+      "meaning": "কোনো কিছু নিয়ে কথা বলা",
+      "example": "We often talk of our childhood memories."
     },
     {
       "phrase": "taste for",
@@ -1435,14 +1615,24 @@ const data = {
       "example": "He has no taste for music."
     },
     {
-      "phrase": "thankful to for",
+      "phrase": "thankful to",
       "meaning": "কারো প্রতি কৃতজ্ঞ",
       "example": "I am thankful to you for your help."
     },
     {
-      "phrase": "think of/about",
+      "phrase": "thankful for",
+      "meaning": "কোনো কিছুর জন্য কৃতজ্ঞ",
+      "example": "I am thankful for your support."
+    },
+    {
+      "phrase": "think of",
       "meaning": "কোনো কিছু চিন্তা করা",
       "example": "Think of the poor."
+    },
+    {
+      "phrase": "think about",
+      "meaning": "কোনো কিছু চিন্তা করা",
+      "example": "She thinks about her future."
     },
     {
       "phrase": "tired of",
@@ -1541,7 +1731,17 @@ const data = {
       "example": "He is worthy of praise."
     },
     {
-      "phrase": "write about/on/to",
+      "phrase": "write about",
+      "meaning": "লেখা",
+      "example": "Write about your experiences."
+    },
+    {
+      "phrase": "write on",
+      "meaning": "লেখা",
+      "example": "He writes on various topics."
+    },
+    {
+      "phrase": "write to",
       "meaning": "লেখা",
       "example": "Write to me as soon as possible."
     }
